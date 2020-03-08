@@ -15,10 +15,12 @@ Scrapy
 
 ### Installing for Windows
 Python: [Python 3.+](https://www.python.org/downloads/). Select the python distribution for your machine and follow the installation guide there.
+
 Scrapy: [Latest version](https://scrapy.org/). Follow the instruction there to download and install latest scrapy on your local machine.
 
 ## Running the tests
 Summary: My goal for this repo is to scrape some data from a movie website using scrapy.
+
 Webiste: [link](https://onlocationvacations.com/category/daily-filming-locations/). This is the root link for my test.
 
 1, To get a copy of this repo, open terminal and navigate to a location and run:
@@ -45,6 +47,7 @@ scrapy crawl locations_spider -o YOUR_FILE_NAME.json
 Note: scrapy support other format such as xml and csv
 
 filming_locations_spider is programmed to index all the website links on the target webpage
+
 locations_spider is programmed to populate the database with country state, movie title and film location.
 
 Note: Running step 4 will takes some time, if you wish to exit, simple press keyboard "ctrl + z"
